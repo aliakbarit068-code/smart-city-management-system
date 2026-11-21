@@ -1,0 +1,6 @@
+algorithm,path,cost,nodes_expanded,ms,complete,optimal,time_complexity,space_complexity
+BFS,A->B->D->F->G,17,7,0.009,Yes,fewest edges,O(b^d),O(b^d)
+DFS,A->B->D->E->F->G,15,7,0.009,Yes (finite),No,O(b^m),O(bm)
+UCS,A->C->E->F->G,14,7,0.009,Yes,Yes (least cost),O(b^(1+C*/e)),O(b^(1+C*/e))
+Greedy,A->B->D->F->G,17,5,0.01,No (can loop),No,O(b^m),O(b^m)
+A*,A->C->E->F->G,14,7,0.012,Yes,Yes (admissible h),O(b^d),O(b^d)

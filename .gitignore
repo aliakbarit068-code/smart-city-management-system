@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Project-specific files not intended for public distribution
+SmartCity_Project_Viva_Handbook.docx
+outputs/run_all_log.txt
